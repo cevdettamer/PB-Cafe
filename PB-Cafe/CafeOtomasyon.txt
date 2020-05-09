@@ -1,0 +1,21 @@
+TODO LIST:
+	Veri tabanları oluşturulacak. (kullanıcı, personel, ayrılanlar, masa, menü, kampanyalar, siparisler, hesaplar, adisyon)
+	Formlar:
+		*Başlangıçta bir login formu olacak. Kullanıcının çalışan mı admin mi olduğunu tablolardan çekerek kontrol edecek. 
+		Çalışansa sadece masa bilgileri ve adisyon işlemleri penceresini kullanabilecek. Adminse tüm seçenekler aktif olacak.
+		*Giriş yapıldıktan sonra Ana menü açılacak. Ana menü de Personel, Masalar, Kasa, Kampanyalar,
+		Menü, Raporlar ve Mutfak seçenekleri olacak.
+		*Menü -> menüdeki yemeklerin listesi olacak ve yemek ekle, sil güncelle olacak.
+		*Personel -> Bu formda veri tabanındaki kayıtlı personel bilgileri listelenecek. Ek olarak işten ayrılan personeller de hemen veri tabanından silinmeyecek
+		veri tabanında ayrı bir tablo olarak tutulacak ve formda ayrı bir sekme olarak gösterilecek.Ekle, Sil ve Güncelle ve Arama işlemleri yapılacak.
+		*Kasa -> Bu formda masalardaki adisyon bilgileri olacak. Toplam maliyet ve fiyat listelenecek. Hesabı kapat butonuna basıldığında tüm adisyon bilgileri raporlar veri tabanına eklenecek. 
+		*Masalar (Garson menü) -> Bu formda mekanda kaç tane masa olduğu görsel olarak listelenecek. Masa ekle çıkar işlemleri yapılacak. Form da Sol menüde sipariş al, adisyon, masa taşı, menü, mutfak seçenekleri olacak.
+		Sipariş al seçeneğinde formun ortasında sipariş seçenekleri olacak. Sipariş eklendiği zaman adisyon a da eklenecek. Adisyona eklenen siparişler Mutfak formuna gönderilecek. Adisyon seçeneğinde hesabı al a bastığında işlem Kasa formunda görünecek.
+		Menü seçeneğinde combodan seçilen bilgilere göre yemek resmi ve fiyatı görünecek. Mutfak seçeneğinde Mutfak formunda hazırlanan siparişler burda listelenecek. Sil seçeneği olacak.
+		*Kampanyalar -> Bu formda mekanda yapılan kampanyalar listelenecek. Kampanya başlangıç bitiş tarihleri, adı ve fiyatı listelenecek aynı zamanda güncelle, ekle, sil işlemleri yapılacak.
+		Eklenene kampanyalar arasında tarihi geçen kampanyalar menüden otomatik silinecek.
+		*Mutfak -> Bu formda adisyondan gelen siparişler listelenecek. Listeden siparişler seçilip hazır butonuna tıklandığında sipariş ekrandan silinecek ve Masalar formundaki masa seçeneğinde listelenecek.
+		Sayfayı yenile butonu olacak.
+		*Raporlar -> Bu formda seçilecek olan belirli tarihler arasındaki adisyon bilgileri listelenecek ve gelir gider hesabı yapılacak. Gösterilen hesap tablosu pdf'ye belirli bir formatta yazdırılacak.
+		
+		*Bağlantılar : siparis, mutfak, adisyon, kasa ve menü arasında bağlantı olacak.
